@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:200,300,400');
+body {
+  font-family: 'Lato', sans-serif;
+}
+.green {
+  background: #BDD436;
+  color: white;
+}
+.green-text {
+  color: #BDD436;
+}
+a {
+  color: #BDD436;
+}
+img {
+  background: #444;
+}
+
+header {
+  display: none;
+}
+
+
+
+.intro {
+  width: 100%;
+  background: url("./pics/wot-masthead-dark.jpg") center no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.line1 {
+  margin-top: 20px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+.line2 {
+  font-size: 18vw;
+  font-weight: 300;
+  text-align: center;
+}
+.line3 {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.line {
+  width: 20%;
+  height: 10px;
+  background-color: white;
+  padding: 0px 3%
+  margin: 0px 5%;
+}
+.intro-button {
+  margin: 50px 20px;
+  border-radius: 30px;
+  border: none;
+  background: #BDD436;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1.2px;
+  width: 85%;
+  padding: 12px 0px;
+}
+
+
+.description {
+  background: #f0f0f0;
+  width: 84%;
+  text-align: center;
+  color: #6a787c;
+  padding: 40px 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descr-contents {
+  font-size: 24px;
+  line-height: 36px;
+}
+.descr-heading {
+  font-size: 42px;
+  line-height: 46px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  margin: 36px 0px 10px 0px;
+}
+
+
+.trio {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 5%;
+}
+.tri {
+  width: 100%;
+  height: 448px;
+  margin: 50px 0px;
+
+  padding: 14px 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.tri-last-two {
+  border-left: 1px solid #d3d3d3;
+}
+.tri-text {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #97a2a7;
+}
+.tri-link {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.tri-image {
+  background: none;
+}
+.third {
+  text-align: center;
+}
+
+
+
+.boxes {
+  /*display: flex;
+  justify-content: center;*/
+  padding: 0px 10px;
+}
+.help {
+  background-color: #F0F0F0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+}
+.how-help {
+  text-align: center;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: sans-serif;
+  color: #40666d;
+  padding: 10px 40px 50px 40px;
+}
+.header1 {
+  color: #40666d;
+  font-size: 42px;
+  line-height: 46px;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+.text-box {
+  padding: 30px;
+  background: white;
+  margin: 15px 15px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.small-header {
+  font-size: 24px;
+  line-height: 25px;
+  color: #40666d;
+  padding: 0px 15px;
+}
+.button2 {
+  margin: 30px;
+}
+.work-with {
+  height: 130px;
+  width: 100%;
+  background: white;
+  font-size: 42px;
+  line-height: 48px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comp {
+  width: 100%;
+
+  /*padding: 32% 0px;*/
+  /*margin-bottom: 65%;*/
+  display: flex;
+  justify-content: center;
+}
+.comp:nth-child(1){
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/AM-portfolio.png") center no-repeat;
+  background-size: cover;
+}
+.comp:nth-child(2){
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/VG-portfolio.png") center no-repeat;
+  background-size: cover;
+}
+.comp:nth-child(3){
+    background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/CI-portfolio.png") center no-repeat;
+    background-size: cover;
+}
+.comp:nth-child(4){
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/KF-portfolio.png") center no-repeat;
+  background-size: cover;
+}
+.comp:nth-child(5){
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/NCMA-portfolio.png") center no-repeat;
+  background-size: cover;
+}
+.comp:nth-child(6){
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/TS-portfolio.png") center no-repeat;
+  background-size: cover;
+}
+.comp-text {
+  color: rgba(255,255,255,0);
+  width: 100%;
+  padding: 27% 30px;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+}
+.invis-image {
+  margin-bottom: 5px;
+  background: rgba(0,0,0,0);
+}
+.comp-text:hover {
+  opacity: 1;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.contact {
+  width: 100%;
+  height: 362px;
+  background: #40666D;
+}
+.email {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.sub-email {
+  font-size: 28px;
+  line-height: 31px;
+  color: white;
+  margin: 30px 10px 0px 30px;
+}
+.small-dash {
+  width: 50px;
+  height: 5px;
+  background: #BDD436;
+  margin-top: 25px;
+}
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 30px;
+}
+.email-us {
+  color: white;
+  width: 150px;
+  height: 50px;
+  background: #BDD436;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.contact-info {
+  width: 100%;
+  height: 300;
+  /*background: #444;*/
+  display: flex;
+  justify-content: space-around;
+}
+.img1 {
+  background: url("./pics/wilmington.jpg") center no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  width: 100%;
+  padding: 100px 9% 125px 9%;
+}
+.img2 {
+  background: url("./pics/asheville.jpg") center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 100px 9%;
+}
+.wilmington {
+  width: 100%;
+  /*margin: 50px 9%;*/
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+.collider {
+  width: 100%;
+  /*margin: 50px 9%;*/
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 5px;
+}
+
+.title1 {
+  font-size: 30px;
+  line-height: 33px;
+}
+footer {
+  height: 62px;
+  background: #F6F6F6;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.message {
+  height: 52px;
+  width: 168px;
+  bottom: 17px;
+  right: 17px;
+  position: fixed;
+  border-radius: 10px;
+  border: #BDD436;
+  box-shadow: 1px 2px 5px #888888;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.message1 {
+  height: 27px;
+  width: 27px;
+  margin: 0px 10px 0px 0px;
+  border: none;
+  font-size: 13px;
+}
+.hidden {
+  display: none;
+}
+
+
+
+
+@media(min-width: 770px){
+  .intro {
+    height: 444px;
+    padding-top: 75px;
+  }
+  .intro-button {
+    width: 300px;
+  }
+  .line1 {
+    text-align: center;
+    margin-right: 60%;
+    margin-left: 10%;
+  }
+  .line2 {
+    margin-bottom: 35px;
+    font-size: 152px;
+    line-height: 140px;
+  }
+  .comp {
+    width: 50%;
+  }
+  .company {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .hidden {
+    display: inherit;
+  }
+  footer {
+    padding-left: 100px;
+    justify-content: flex-start;
+  }
+  .contact {
+    height: 420;
+  }
+}
+
+
+@media(min-width: 950px) {
+  .trio {
+    flex-direction: row;
+  }
+  .tri {
+    padding: 49px 24px;
+  }
+  .part3 {
+    width: 50%;
+    margin-left: 12%;
+  }
+  .part4 {
+    width: 50%;
+    margin-right: 12%;
+  }
+  .right-side {
+    height: 23%;
+    padding: 49px 24px;
+    text-align: center;
+  }
+  .boxes {
+    display: flex;
+    justify-content: center;
+  }
+  .comp {
+    width: 33.33%;
+    /*padding: 10% 0px;*/
+    /*padding-bottom: 22%;*/
+  }
+
+}
