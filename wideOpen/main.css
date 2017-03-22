@@ -23,34 +23,33 @@ header {
   background: white;
   margin: 0px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   margin: 18.5px 30px;
 }
-nav {
-  position: fixed;
-  top: 67px;
+.three-lines {
+  height: 31px;
+  width: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  margin-right: 30px;
+}
+.liner {
   width: 100%;
-  text-align: left;
-  background: white;
-  padding-left: 30px;
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
-  line-height: 45px;
-  color: #6a787c;
-  margin: 0px;
-
+  background-color: #aaa;
+  height: 4px;
 
 }
-nav:focus {
-  display: block;
-  float: left;
-  position: fixed;
-}
+
 .nav-button {
-  background: #444;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
 }
 
 
@@ -64,9 +63,14 @@ nav:focus {
   font-family: 'Oswald', sans-serif;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
   padding-top: 68px;
+}
+.box-it-in {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    align-items: center;
 }
 .line1 {
   margin-top: 20px;
@@ -86,7 +90,7 @@ nav:focus {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 100%;
 }
 .line {
   width: 20%;
@@ -101,13 +105,13 @@ nav:focus {
   border: none;
   background: #BDD436;
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   font-family: 'Lato', sans-serif;
   letter-spacing: 1.2px;
-  width: 85%;
-  padding: 12px 0px;
+  width: 84%;
+  padding: 15.5px 0px;
 }
 
 
@@ -421,17 +425,43 @@ footer {
 
 
 @media(min-width: 770px){
+  ul {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;
+    align-items: center;*/
+    /*position: static;*/
+    /*top: 67px;*/
+    width: 100%;
+    text-align: left;
+    background: white;
+    /*padding-left: 30px;*/
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 45px;
+    color: #6a787c;
+    margin: 0px;
+  }
+  li {
+    margin-right: 20px;
+  }
+  .nav-button {
+    display: flex;
+  }
+  .liner {
+    display: none;
+  }
+
   .intro {
     height: 444px;
     padding-top: 75px;
   }
-  .intro-button {
-    width: 300px;
-  }
+
   .line1 {
-    text-align: center;
-    margin-right: 60%;
-    margin-left: 10%;
+    text-align: left;
+    /*margin-right: 80%;*/
+    margin-right: 560px;
+    position: static;
   }
   .line2 {
     margin-bottom: 35px;
@@ -460,6 +490,10 @@ footer {
 
 
 @media(min-width: 950px) {
+  .intro-button {
+    width: 300px;
+    margin-bottom: 0px;
+  }
   .trio {
     flex-direction: row;
   }
